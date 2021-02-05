@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__back {
+  text-decoration: none;
+  color: #E36A58;
+  font-family: Asap, sans-serif;
+  line-height: 40px;
+}
+
+.header__back::before {
+  content: '«';
+}
+
+.header__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input__group {
+  width: 300px;
+  align-items: center;
+}
+
+#input__logo::after {
+  content: '123';
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
